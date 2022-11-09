@@ -10,10 +10,18 @@ import java.util.Scanner;
  * @author user3
  */
 public class NOPProj {
-
-    /**
-     * @param args the command line arguments
-     */
+    //Szökőév methódus
+    public static boolean szokoeve(){
+        boolean a = true;
+        if ((ev > 1582) && (ev % 4 == 0) && (ev % 100 != 0) || (ev % 400 == 0)) {
+            a = true;
+        }
+        else {
+            a = false;
+        }
+        return a;
+    }
+    
     public static void main(String[] args) {
         // addig kér be a felhasználótól egy évszámot, amíg az nem szökőév
         //kiírja a végén az évszámot fordítva
