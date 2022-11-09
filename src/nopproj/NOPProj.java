@@ -21,6 +21,12 @@ public class NOPProj {
         }
         return a;
     }
+            public static int main()
+                { int szam;
+  
+ 
+            return szam;
+            }
     
     public static void main(String[] args) {
         // addig kér be a felhasználótól egy évszámot, amíg az nem szökőév
