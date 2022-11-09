@@ -21,6 +21,10 @@ public class NOPProj {
         }
         return a;
     }
+    //tetszőleges sorminta
+    public static void elkulonito(){
+        System.out.println("************************************");
+    }
             public static int main()
                 { int szam;
   
