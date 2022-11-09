@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package nopproj;
-
+import java.util.Scanner;
 /**
  *
  * @author user3
@@ -17,6 +17,10 @@ public class NOPProj {
     public static void main(String[] args) {
         // addig kér be a felhasználótól egy évszámot, amíg az nem szökőév
         //kiírja a végén az évszámot fordítva
+        System.out.println("Adjon meg egy évszámot: ");
+        int ev= scanner.nextInt();
+        
+ 
         
     }
     
