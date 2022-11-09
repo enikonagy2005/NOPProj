@@ -11,7 +11,7 @@ package nopproj;
  */
 public class NOPProj {
     //Szökőév methódus
-    public static boolean szokoeve(){
+    public static boolean szokoeve(int ev){
         boolean a = true;
         if ((ev > 1582) && (ev % 4 == 0) && (ev % 100 != 0) || (ev % 400 == 0)) {
             a = true;
