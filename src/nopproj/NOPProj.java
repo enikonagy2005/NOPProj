@@ -24,8 +24,6 @@ public class NOPProj {
     //tetszőleges sorminta
     public static void elkulonito(){
         System.out.println("***************************");
-        System.out.println("******Viktor a király******");
-        System.out.println("***************************");
     }
             public static int main()
                 { int szam;
